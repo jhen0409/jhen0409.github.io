@@ -1,14 +1,17 @@
 # Site settings
-title: Jhen's development note
+title: Jhen's blog
 email: iainst0409@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jhen.me" # the base hostname & protocol for your site
+description: > 
+  I'm Jhen, this blog is my development notes. 
+license: >
+  Copyright © 2015 Jhen-Jie Hong. Powered by 
+  <a href="http://jekyllrb.com" target="_blank">Jekyll.</a>
+baseurl: ""
+url: "http://jhen.me"
 twitter_username: jhen_jie
+facebook_username:  jhenjie.hong
 github_username:  jhen0409
+
 
 # Build settings
 markdown: kramdown
