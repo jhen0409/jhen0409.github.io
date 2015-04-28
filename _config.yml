@@ -2,7 +2,9 @@
 title: Jhen
 email: developer@jhen.me
 description: > 
-  I'm Jhen, this blog is my development notes. 
+  I'm Jhen, this blog is my development notes.
+og_description: >
+  我是洪振傑 Jhen, 是一位 Web Developer, 使用 JavaScript 寫遍前後端 & Desktop. (react/flux, angular & node.js/io.js & nw.js)
 license: >
   Copyright © 2015 Jhen-Jie Hong. Powered by 
   <a href="http://jekyllrb.com" target="_blank">Jekyll.</a>
