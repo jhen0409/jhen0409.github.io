@@ -234,3 +234,45 @@
         }
     }
 }
+
+.main {
+    display: inline-block;
+    vertical-align: middle;
+    width: 55rem;
+    max-width: 90%;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: rgba(0,0,0,0.25) 0 0 5px;
+
+    .title {
+        font-size: 40px;
+    }
+
+    .circle {
+        display: inline-block;
+        width: 200px;
+        height:200px;
+        border-radius: 50%;
+        border: 1px solid #eee;
+        padding: 5px;
+        background: #fff;
+    }
+
+    .inner {
+        background-image: url(http://s.gravatar.com/avatar/cdea435e1117a51f615b0edaf8b9f80c?s=300);
+        background-size: cover;
+        background-position:center center;
+        height: 100%;
+        border-radius:50%;
+    }
+
+    .links {
+        font-size: 40px;
+
+        a {
+            padding: 5px;
+        }
+    }
+
+}

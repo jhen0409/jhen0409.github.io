@@ -1,23 +1,28 @@
 ---
-layout: default
+layout: main
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="main">
+  <div class="circle">
+    <div class="inner"></div>
+  </div>
+  <br>
+  <br>
+  <p class="title">
+    我是洪振傑 Jhen
+  </p>
+  <br>
+  <p>
+    目前為 <a href="http://www.lhu.edu.tw" target="_blank">龍華科技大學</a> 資管系大四生，也同時在 <a href="http://www.mybigday.com.tw" target="_blank">感覺不錯</a> 擔任 R&D
+  </p>
+  <br>
+  <p>
+    資訊領域以 Web 為重，以 JavaScript 寫遍前後端，也包含 Desktop apps, 也有自認算豐富的 Android apps 開發經驗，最近開始轉向使用 React Native 開發 iOS apps
+  </p>
+  <br>
+  <div class="links">
+    <a href="main.html" title="Blog"><i class="fa fa-pencil"></i></a>
+    <a href="http://github.com/jhen0409" target="_blank" title="Github"><i class="fa fa-github"></i></a> 
+    <a href="http://fb.me/jhenjie.hong" target="_blank" title="Facebook"><i class="fa fa-facebook-official"></i></a>
+  </div>
 </div>
