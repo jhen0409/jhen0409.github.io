@@ -6,7 +6,6 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -50,3 +49,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+$base-font-family: "Source Han Sans TC", "Noto Sans T Chinese", "Open Sans", Helvetica, Arial, "Microsoft Jhenghei", sans-serif;
+
+body {
+  font-family: $base-font-family;
+}
